@@ -4,7 +4,7 @@ const SET_MESSAGE = "SET_MESSAGE";
 
 const initialState = {
     isLoading: false,
-    message: 'default',
+    message: 'Enter a text',
 }
 export function example(state = initialState, action) {
     switch (action.type) {
